@@ -1,0 +1,146 @@
+/*/*Normalise*/
+/*Underline and up and down effect*/
+body{
+	margin:0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 20px 10px;
+	text-align: center;
+	}
+
+li {
+	display:inline;
+}
+li a{
+	text-decoration: none;
+	text-align: center;
+	/*color:#fff;*/
+}
+
+.navBars{
+	background:red;
+}
+
+.row {
+	width:100%;
+	margin-top:20px;
+	height:70px;
+
+}
+.collumn {
+	float:left;
+	width:85%;
+ }
+.collumn1 { 
+	width:15%;
+	float:right;
+ }
+/*.row:after {
+	clear:both;
+}*/
+/*#navBar1 {
+	width:90%;
+	background:green;
+}*/
+#navBarM li a {
+	padding:30px 30px;
+}
+
+#navBar1 li a {
+	padding:20px 30px;
+}
+#navBar1 a:hover {
+	background:white;
+}
+
+#navBar2 {
+	background:lightgreen;
+}
+
+
+#navBar2 li a {
+	padding:15px 30px;
+}
+
+
+#navBar2 a:hover {
+	border-top:5px solid #777;
+
+/*	background:#999;
+	border-radius: 50px 50px;*/
+}
+/*#navBar2 a:active {
+	background:#999;
+}*/
+
+/*#navBar2 {
+	background:lightgreen;
+}
+
+#navBar2 a:hover {
+	background:#999;
+}*/
+
+#navBar3 {
+	background:lightgreen;
+}
+#navBar3 li a {
+	padding:20px 30px;
+}
+#navBar3 a:hover {
+	background:#999;
+	border-radius: 35px 0px;
+}
+
+#navBar4 {
+	background:lightgreen;
+}
+
+#navBar4 li a {
+	padding:15px 30px;
+}
+
+#navBar4 a:hover {
+	border-bottom:5px solid #777;
+}
+#navBar5 {
+	background:lightgreen;
+}
+
+#navBar5 li a {
+	padding:15px 30px;
+}
+
+#navBar5 a:hover {
+	border-top: 5px solid #777;
+	border-bottom:5px solid #777;
+}
+#navBar6 {
+	background:lightgreen;
+}
+
+#navBar6 li a {
+	padding:5px 30px;
+}
+
+#navBar6 a:hover {
+
+	border-bottom:20px solid #777;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	/*height:0;*/
+	/*width:30px;*/
+
+}
+/*#trap {
+	border-bottom:20px solid #777;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+}*/
+.row:after {
+	clear:both;
+}
