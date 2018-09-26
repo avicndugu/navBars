@@ -1,9 +1,14 @@
 /*/*Normalise*/
 /*Underline and up and down effect*/
+/*Triangular corners also possible*/
+/*Trapezium also possible*/
 body{
 	margin:0;
+	background:#ebeae6;
 }
-
+p {
+	text-align: center;
+}
 ul {
 	list-style-type: none;
 	margin: 0px;
@@ -17,17 +22,24 @@ li {
 li a{
 	text-decoration: none;
 	text-align: center;
-	/*color:#fff;*/
+	color:#fff;
 }
 
 .navBars{
-	background:red;
+	background:#0E1555;
+
+	/*background:red;*/
 }
+
+/*.navBars a:hover {	
+	background:#f88e37;
+}*/
 
 .row {
 	width:100%;
 	margin-top:20px;
 	height:70px;
+
 
 }
 .collumn {
@@ -38,28 +50,21 @@ li a{
 	width:15%;
 	float:right;
  }
-/*.row:after {
-	clear:both;
-}*/
-/*#navBar1 {
-	width:90%;
-	background:green;
-}*/
+
 #navBarM li a {
 	padding:30px 30px;
 }
+#navBarM li a:hover {	
+	transform: skewY(20deg);
+	background:#3daadd;
+}
 
 #navBar1 li a {
-	padding:20px 30px;
+	padding:20px 30px 17px 30px;
 }
 #navBar1 a:hover {
-	background:white;
+	background:#f88e37;
 }
-
-#navBar2 {
-	background:lightgreen;
-}
-
 
 #navBar2 li a {
 	padding:15px 30px;
@@ -67,36 +72,15 @@ li a{
 
 
 #navBar2 a:hover {
-	border-top:5px solid #777;
-
-/*	background:#999;
-	border-radius: 50px 50px;*/
-}
-/*#navBar2 a:active {
-	background:#999;
-}*/
-
-/*#navBar2 {
-	background:lightgreen;
+	border-top:5px solid #3daadd;
 }
 
-#navBar2 a:hover {
-	background:#999;
-}*/
-
-#navBar3 {
-	background:lightgreen;
-}
 #navBar3 li a {
 	padding:20px 30px;
 }
 #navBar3 a:hover {
-	background:#999;
-	border-radius: 35px 0px;
-}
-
-#navBar4 {
-	background:lightgreen;
+	background:#f88e37;
+	border-radius: 30px 0px;
 }
 
 #navBar4 li a {
@@ -104,10 +88,7 @@ li a{
 }
 
 #navBar4 a:hover {
-	border-bottom:5px solid #777;
-}
-#navBar5 {
-	background:lightgreen;
+	border-bottom:5px solid #3daadd;
 }
 
 #navBar5 li a {
@@ -115,32 +96,19 @@ li a{
 }
 
 #navBar5 a:hover {
-	border-top: 5px solid #777;
-	border-bottom:5px solid #777;
-}
-#navBar6 {
-	background:lightgreen;
+	border-top: 5px solid #f88e37;
+	border-bottom:5px solid #f88e37;
 }
 
 #navBar6 li a {
-	padding:5px 30px;
+	padding:30px;
 }
 
-#navBar6 a:hover {
-
-	border-bottom:20px solid #777;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	/*height:0;*/
-	/*width:30px;*/
-
+#navBar6  a:hover{
+	background-color: #f88e37;
+	transform-style: skewX(10deg);
 }
-/*#trap {
-	border-bottom:20px solid #777;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	
-}*/
+
 .row:after {
 	clear:both;
 }
