@@ -51,6 +51,10 @@ li a{
 	float:right;
  }
 
+.row:after {
+	clear:both;
+}
+
 #navBarM li a {
 	padding:30px 30px;
 }
@@ -60,7 +64,7 @@ li a{
 }
 
 #navBar1 li a {
-	padding:20px 30px 17px 30px;
+	padding:20px 30px 15px 30px;
 }
 #navBar1 a:hover {
 	background:#f88e37;
@@ -96,8 +100,8 @@ li a{
 }
 
 #navBar5 a:hover {
-	border-top: 5px solid #f88e37;
-	border-bottom:5px solid #f88e37;
+	border-top: 10px solid #f88e37;
+	border-bottom:10px solid #f88e37;
 }
 
 #navBar6 li a {
@@ -106,9 +110,6 @@ li a{
 
 #navBar6  a:hover{
 	background-color: #f88e37;
-	transform-style: skewX(10deg);
+	/*transform-style: skewX(10deg);*/
 }
 
-.row:after {
-	clear:both;
-}
